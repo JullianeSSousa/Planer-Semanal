@@ -1,0 +1,60 @@
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assets/flores.png);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.container{
+    text-align: center;
+    background-image:
+    url("assets/papel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: rgba(162, 173, 89, 0.9); /* 50% de opacidade */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+    border: 3px solid #F194B4;
+   
+    
+}
+
+h1 {
+    color: #001B2E;
+}
+
+p {
+    color: #331F19;
+    font-size: 1.1em;
+}
+button {
+    background-color: #798252;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #CCD595;
+    color: #504e4d;
+}
