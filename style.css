@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
     background-image: url(assets/flores.png);
     backdrop-filter: blur(5px);
@@ -44,8 +44,8 @@ p {
     font-size: 1.1em;
 }
 button {
-    background-color: #798252;
-    color: #F4F0EA;
+    background-color:  #048a81;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -55,6 +55,6 @@ button {
     margin-top: 10px;
 }
 button:hover {
-    background-color: #CCD595;
-    color: #504e4d;
+    background-color:  #F194B4;
+    color: #C0FDFB;
 }
